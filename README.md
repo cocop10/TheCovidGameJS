@@ -2,8 +2,7 @@
 
 ### Hi there 👋
 
-
-#Ce jeu a été réalisé en JavaScript dans le but du master MBDS.
+## Ce jeu a été réalisé en JavaScript dans le but du master MBDS.
 
 Il s'appuie sur les notions de canvas.
 
