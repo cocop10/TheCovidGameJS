@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "CranberryBlues";
+    src: url("../assets/fonts/CranberryBlues.ttf");
+    font-family: "Shakerato-PERSONAL";
+     src: url("../assets/fonts/Shakerato-PERSONAL.otf");
+}
+
+h1 {
+    font-family: "Shakerato-PERSONAL";
+    color: red;
+    border: 2px solid blue;
+    background-color: rgb(89, 217, 226);
+    text-align: center;
+}
+
+#myCanvas {
+    border:1px solid black;
+    background-color: rgb(245, 195, 195);
+    background-image:linear-gradient(rgba(255,255,255,0.95), rgba(7, 136, 104, 0.95)), url("../assets/images/covid-logo.png");
+    margin-left: 300px;
+    
+}
+
+.canvas{
+    margin: 0 auto;
+}
+
+ #infosJeu {
+    font-family: "Shakerato-PERSONAL";
+    color:red;
+    font-size:20px;
+    position:absolute;
+    left:30px;
+    top:580px;
+    user-select: none;
+} 
