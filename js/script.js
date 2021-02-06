@@ -7,7 +7,7 @@ let tableauDesBalles = [];
 let nombreBallesVertes = 0;
 let balleChercheuseImage;
 let vitesseBalleChercheuse = 0.5;
-let vmax = 3;
+let vmax = 5;
 let vmin = 0;
 let musiqueCourante;
 let vie = 5;
@@ -141,7 +141,7 @@ function niveauFini() {
 }
 
 function partieFinie() {
-  return vie < 0;
+  return vie <=0;
 }
 /*---------------------------Niveau suivant------------------------------*/
 function niveauSuivant() {
@@ -191,8 +191,8 @@ function creerDesBalles(nb) {
     let r = randomBetween(rayInf,raySup);
     let indexCouleur = Math.floor(Math.random() * tabCouleurs.length);
     let couleur = tabCouleurs[indexCouleur];
-    let vx = randomBetween(vmin,vmax);
-    let vy = randomBetween(vmin,vmax);
+    let vx = -5 + randomBetween(vmin,vmax);
+    let vy = -5 + randomBetween(vmin,vmax);
     //on verifie qu'elle ne pop pas sur le joueur
     //creation d'une bounding box de 150*150
     while (
